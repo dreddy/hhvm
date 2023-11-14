@@ -24,7 +24,7 @@ include(HPHPFunctions)
 SET_HHVM_THIRD_PARTY_SOURCE_ARGS(
   LIBZIP_DOWNLOAD_ARGS
   SOURCE_URL
-  "https://libzip.org/download/libzip-1.6.1.tar.gz"
+  "https://github.com/nih-at/libzip/releases/download/rel-1-6-1/libzip-1.6.1.tar.gz"
   SOURCE_HASH
   "SHA256=06eb8e9141fd19e2788cabaea9c9c2fd4d488d9e1484eb474bbfcac78e7b1d88"
 )
