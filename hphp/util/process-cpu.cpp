@@ -18,6 +18,7 @@
 
 #include <sys/utsname.h>
 #include <assert.h>
+#include <cstdint>
 #include <cstring>
 
 #include <sys/wait.h>
