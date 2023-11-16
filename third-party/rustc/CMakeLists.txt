@@ -37,7 +37,7 @@ else()
     Darwin_URL
     "https://static.rust-lang.org/dist/${RUST_NIGHTLY_VERSION}/rust-nightly-x86_64-apple-darwin.tar.gz"
     Linux_HASH
-    "SHA512=54b25bbb83ed329b8223abab6babdd7d04b496481cb63be313bb8cf21f298924"
+    "SHA512=5244b85a288b9c1ed9de44e339cb80cfb5206d514da041679cb4dd97a3d15d068349f4d59e8007cf9ec32fdb8cb9341e7f81637da89f0ce6c790bcfb2558eaa8"
     Darwin_HASH
     "SHA512=e5a220dd11a23cac145792d7a7ab2c97a1a5b26f545cde6d8acc245e50d46c95"
     # The original filename doesn't contain any version information, so add the version information as a prefix to avoid cache collisions when updating later
