@@ -28,7 +28,7 @@ if(RUSTC_EXECUTABLE)
 else()
   message(STATUS "Using bundled Rust")
 
-  set(RUST_NIGHTLY_VERSION "2023-09-30")
+  set(RUST_NIGHTLY_VERSION "2023-07-09")
 
   SET_HHVM_THIRD_PARTY_SOURCE_ARGS(
     RUST_DOWNLOAD_ARGS
@@ -37,9 +37,9 @@ else()
     Darwin_URL
     "https://static.rust-lang.org/dist/${RUST_NIGHTLY_VERSION}/rust-nightly-x86_64-apple-darwin.tar.gz"
     Linux_HASH
-    "SHA512=230616ae947041e99ae93389cbe3aebaffb37de64d0f9b6c73629a2237c537883907b33ec4b1f4ba8ee8b03e05ffaadc3ca47b4550f6d2dd5fe1781a67668679"
+    "SHA512=54b25bbb83ed329b8223abab6babdd7d04b496481cb63be313bb8cf21f298924"
     Darwin_HASH
-    "SHA512=dd277ccd183b6284a08c5a6d7ece0a43d5799d6c5cc6a98b762594f9418900e474de002f15a48f998ed41a47797e4899b9ca4ed22e33b94607aea2514fc6653e"
+    "SHA512=e5a220dd11a23cac145792d7a7ab2c97a1a5b26f545cde6d8acc245e50d46c95"
     # The original filename doesn't contain any version information, so add the version information as a prefix to avoid cache collisions when updating later
     FILENAME_PREFIX "rustc-${RUST_NIGHTLY_VERSION}-"
   )
