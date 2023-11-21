@@ -27,7 +27,7 @@ ExternalProject_Add(
 
 # CLang uses the GCC file too.
 if(CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
- execute_process(COMMAND "patch" "-p3" "-f" INPUT_FILE "${CMAKE_CURRENT_SOURCE_DIR}/clang_fix.patch")
+ execute_process(COMMAND "patch" "-p3"  "-d" "${CMAKE_CURRENT_SOURCE_DIR}" "-f" INPUT_FILE "${CMAKE_CURRENT_SOURCE_DIR}/clang_fix.patch")
 endif()
 
 add_library(tbb INTERFACE)
